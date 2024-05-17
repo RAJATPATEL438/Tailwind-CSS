@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- -------------------------------------grid-cols------------------------------------------ -->
+    <div><h1 class="text-center">grid-cols</h1></div>
+    <div class="grid grid-cols-2 m-2 p-1 bg-slate-300">
+        <div class="bg-blue-600 m-2 p-10">01</div>
+        <div class="bg-blue-600 m-2 p-10">02</div>
+        <div class="bg-blue-600 m-2 p-10">03</div>
+    </div>
+
+    <!-- -------------------------------------col-start------------------------------------------ -->
+    <div><h1 class="text-center">grid-start-2</h1></div>
+    <div class="grid grid-cols-4 m-2 p-1 bg-slate-300">
+        <div class="bg-blue-600 col-start-2 m-2 p-10">01</div>
+        <div class="bg-blue-600 m-2 p-10">02</div>
+        <div class="bg-blue-600 m-2 p-10">03</div>
+    </div>
+
+    <!-- -------------------------------------col-end------------------------------------------ -->
+    <div><h1 class="text-center">col-end-4</h1></div>
+    <div class="grid grid-cols-4 m-2 p-1 bg-slate-300">
+        <div class="bg-blue-600 col-end-4 m-2 p-10">01</div>
+        <div class="bg-blue-600 m-2 p-10">02</div>
+        <div class="bg-blue-600 m-2 p-10">03</div>
+    </div>
+
+    <!-- -------------------------------------col-span------------------------------------------ -->
+    <div><h1 class="text-center">col-span</h1></div>
+    <div class="grid grid-cols-4 m-2 p-1 bg-slate-300">
+        <div class="bg-blue-600 col-span-2 m-2 p-10">01</div>
+        <div class="bg-blue-600 m-2 p-10">02</div>
+        <div class="bg-blue-600 m-2 p-10">03</div>
+    </div>
+
+    <!-- -------------------------------------grid-rows------------------------------------------ -->
+    <div><h1 class="text-center">grid-rows</h1></div>
+    <div class="grid grid-rows-2 grid-flow-col m-2 p-1 bg-slate-300">
+        <div class="bg-blue-600 m-2 p-10">01</div>
+        <div class="bg-blue-600 m-2 p-10">02</div>
+        <div class="bg-blue-600 m-2 p-10">03</div>
+    </div>
+
+    <!-- -------------------------------------row-start------------------------------------------ -->
+    <div><h1 class="text-center">grid-start-2</h1></div>
+    <div class="grid grid-rows-2 grid-flow-col m-2 p-1 bg-slate-300">
+        <div class="bg-blue-600 m-2 p-10 row-start-2">01</div>
+        <div class="bg-blue-600 m-2 p-10">02</div>
+        <div class="bg-blue-600 m-2 p-10">03</div>
+    </div>
+
+    <!-- --------------------------------------row-end----------------------------------------- -->
+    <div><h1 class="text-center">rows-end-3</h1></div>
+    <div class="grid grid-rows-2 grid-flow-col m-2 p-1 bg-slate-300">
+        <div class="bg-blue-600 m-2 p-10 row-end-3">01</div>
+        <div class="bg-blue-600 m-2 p-10">02</div>
+        <div class="bg-blue-600 m-2 p-10">03</div>
+    </div>
+
+    <!-- -------------------------------------row-span------------------------------------------ -->
+    <div><h1 class="text-center">row-span</h1></div>
+    <div class="grid grid-rows-2 grid-flow-col m-2 p-1 bg-slate-300">
+        <div class="bg-blue-600 m-2 p-10 row-span-2">01</div>
+        <div class="bg-blue-600 m-2 p-10">02</div>
+        <div class="bg-blue-600 m-2 p-10">03</div>
+    </div>
+
+</body>
+</html>
